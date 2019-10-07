@@ -10,6 +10,7 @@ class NavBar extends Component {
   }
 
   componentDidMount() {
+    //this will add resize event listener to componentDidMount
     window.addEventListener("resize", this.resize.bind(this));
     this.resize();
   }
