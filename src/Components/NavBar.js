@@ -19,7 +19,7 @@ class NavBar extends Component {
   }
   // "right hide-on-med-and-down"
   render() {
-    console.log(this.state.hideNav);
+    // console.log(this.state.hideNav);
     return (
       <div>
         <nav>
