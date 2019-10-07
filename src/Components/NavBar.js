@@ -10,6 +10,7 @@ class NavBar extends Component {
   }
 
   componentDidMount() {
+    //this will add resize event listener to componentDidMount
     window.addEventListener("resize", this.resize.bind(this));
     this.resize();
   }
@@ -19,7 +20,7 @@ class NavBar extends Component {
   }
   // "right hide-on-med-and-down"
   render() {
-    console.log(this.state.hideNav);
+    // console.log(this.state.hideNav);
     return (
       <div>
         <nav>
